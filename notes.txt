@@ -4,4 +4,12 @@ Week 1:
 
 	- Ok, working directory set, but does it make sense yet, to have a separate code folder, and maybe a separate data folder? Or maybe the answer is to have separate folders for each of the projects that will be worked on.
 
-	
+	(part 2)
+
+	- What is R? It's a dialect of S...an early version of a FORTRAN set of libraries done for statistics. Then reimplemented in C...made it more portable...duh...resembles version 3. Version 4/5 is what most resembles what we have today. Originally developed by AT&T Bell labs.
+
+	- Created in 1991 in New Zealand. R is modular...doesn't require a huge software package. Very useful as an interactive tool (eases transition from user to programmer). Very sophisticated graphics capabilities. R is free software, in the sense of Richard Stallman. Two basic parts: what you get from CRAN, and then everything else. ~4000 packages developed by other users and programmers (WOW). Lots of others associated with bioconductor.org.
+
+	- Drawbacks? 40-yr-old technology. Objects must be stored in physical memory...ooo, this might be interesting later; but support has improved in this realm recently.
+
+	- Slide 16 is a very good reference on useful S/R books!!!
