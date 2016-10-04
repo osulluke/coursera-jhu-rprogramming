@@ -1,0 +1,7 @@
+Week 1:
+
+	- http://swirlstats.com/ cool site that will show you how to use R, using R...this will install a swirl package that then will install interactive courses in R! Nice!
+
+	- Ok, working directory set, but does it make sense yet, to have a separate code folder, and maybe a separate data folder? Or maybe the answer is to have separate folders for each of the projects that will be worked on.
+
+	
