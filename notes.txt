@@ -13,3 +13,13 @@ Week 1:
 	- Drawbacks? 40-yr-old technology. Objects must be stored in physical memory...ooo, this might be interesting later; but support has improved in this realm recently.
 
 	- Slide 16 is a very good reference on useful S/R books!!!
+
+	- Ok, got swirl installed in R, and am now ready to do these exercies (run with the command 'swirl()'):
+
+		Basic Building Blocks
+		Workspace and Files
+		Sequences of Numbers
+		Vectors
+		Missing Values
+		Subsetting Vectors
+		Matrices and Data Frame
