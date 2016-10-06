@@ -23,3 +23,9 @@ Week 1:
 		Missing Values
 		Subsetting Vectors
 		Matrices and Data Frame
+
+	- c(x,y,...) will 'catenate' a vector, and make you a new object. An apparently important function. Types in these vectors do not have to match.
+
+	- cool function: as.* will 'coerce' on value type/class to another.
+
+	- lists are very important in R, and they can contain variables of different classes and types; now I'm not sure if my previous thought was true, i.e. that vectors could contain objects of differing types - we'll see.
