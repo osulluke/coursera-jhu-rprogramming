@@ -24,8 +24,20 @@ Week 1:
 		Subsetting Vectors
 		Matrices and Data Frame
 
+	(Data types) 
+
 	- c(x,y,...) will 'catenate' a vector, and make you a new object. An apparently important function. Types in these vectors do not have to match.
 
 	- cool function: as.* will 'coerce' on value type/class to another.
 
 	- lists are very important in R, and they can contain variables of different classes and types; now I'm not sure if my previous thought was true, i.e. that vectors could contain objects of differing types - we'll see.
+
+	- matricies are special types of vectors; using the dim() function, you can assign a dimension to a vector, which will then smoosh the vector into that shape (pretty cool). There are also a couple of other functions you can use to build matricies from vectors - cbind() and rbind(), which 'bind' columns by column, or row, respectively.
+
+	- factors are used to represent 'categorical data'; can think of it as an integer vector, where each vector has a name, or 'label.' factors have a 'levels' attribute, which is basically like the default 'sort' that will be applied to the elements that make up the list/vector - at least that's as far as I can ascertain right now.
+
+	- missing values have a couple of tests you can apply to objects to determine if there are NAs or NANs; these are is.na() and is.nan().
+
+	- data frames: this is a key R data type used to store tabular data. Unlike matricies, data frames don't need to store the same data type. Each row has a name: this attribute is called row.names.
+
+	- you can name objects in R, and then refer to the elements by their names. you can also assign names to rows and columns of matricies using the dimnames() function.
