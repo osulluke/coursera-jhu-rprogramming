@@ -41,3 +41,20 @@ Week 1:
 	- data frames: this is a key R data type used to store tabular data. Unlike matricies, data frames don't need to store the same data type. Each row has a name: this attribute is called row.names.
 
 	- you can name objects in R, and then refer to the elements by their names. you can also assign names to rows and columns of matricies using the dimnames() function.
+
+	(Reading data)
+
+	- read.table, read.csv read tabular data from files.
+	- readLines will get lines from a text file.
+	- write.table, writeLines
+	- in read.table, the file argument can be a file, but also a 'connection'; could it be something like a real-time data stream or a database connection? Not sure yet, but am intrigued.
+	- help page for read.table is very good, and very important to understand...a good resource.
+	- colClasses is very important when the data set is large. When you tell R what types of data exist in the columns, R doesn't need to spend time figuring it out itself. nrows has a similar effect on memory usage. read.table will require ~2x the amount of memory to store data than is 'theoretically' required to store it.
+
+	(Writing data)
+
+	- dput() will output some R code that can be used to recontruct an R object - dget() has the analog effect.
+
+	(Interfacing to outside data)
+
+	- done through 'connections'...
