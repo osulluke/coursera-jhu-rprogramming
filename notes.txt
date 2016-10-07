@@ -66,3 +66,5 @@ Week 1:
 	- pattern matching seems cool, almost like 'tab completion', but a little different.
 
 	- some good stuff on getting rid of missing values; not sure how to apply it yet.
+
+	- vectorized operations allow you to avoid a lot of explicit looping
