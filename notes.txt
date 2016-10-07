@@ -58,3 +58,11 @@ Week 1:
 	(Interfacing to outside data)
 
 	- done through 'connections'...
+
+	(Subsetting)
+
+	- subsetting is the R-term used to denote picking data out of larger sets. Done with '[', '[[', and '$' ($ is for names). Indecies can be numeric, but can also be 'logical' - enabling tests to be run against elements of the list. [[]] operator can use a calculated value, like a variable, which can be very useful.
+
+	- pattern matching seems cool, almost like 'tab completion', but a little different.
+
+	- some good stuff on getting rid of missing values; not sure how to apply it yet.
